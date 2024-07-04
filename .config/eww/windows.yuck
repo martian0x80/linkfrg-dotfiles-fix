@@ -2,8 +2,10 @@
     :monitor 0
     :geometry (geometry :width "100%"
                         :anchor "bottom center"
+                        :y "0.1%"
                     )
     :exclusive true
+    :windowtype "dock"
     :namespace "eww"
     (bar)
 )
